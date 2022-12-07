@@ -50,4 +50,8 @@ router.post("/login", async (req, res) => {
   }
 });
 
+router.get("/", (req,res)=>
+{
+  console.log("hudtg")
+})
 module.exports = router;
